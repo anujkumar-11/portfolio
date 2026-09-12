@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anuj Kumar - Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans antialiased selection:bg-indigo-500 selection:text-white">
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-gray-900/90 backdrop-blur-md z-50 border-b border-gray-800">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold tracking-wider text-indigo-400">ANUJ KUMAR</a>
+            <div class="hidden md:flex space-x-8 text-sm font-medium">
+                <a href="#about" class="hover:text-indigo-400 transition">About</a>
+                <a href="#education" class="hover:text-indigo-400 transition">Education</a>
+                <a href="#skills" class="hover:text-indigo-400 transition">Skills</a>
+                <a href="#projects" class="hover:text-indigo-400 transition">Projects</a>
+                <a href="#achievements" class="hover:text-indigo-400 transition">Achievements</a>
+                <a href="#contact" class="hover:text-indigo-400 transition">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero / About Section -->
+    <section id="about" class="pt-32 pb-20 px-6 max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
+        <div class="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-indigo-500/30 shadow-2xl flex-shrink-0">
+            <img src="../image/Anujpic.jpeg" alt="Anuj Kumar" class="w-full h-full object-cover">
+        </div>
+        <div class="space-y-4 text-center md:text-left">
+            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight">Hi, I'm <span class="text-indigo-400">Anuj Kumar</span></h1>
+            <p class="text-lg md:text-xl text-gray-400 font-light">
+                Electronics and Communication Engineering Student at <span class="text-gray-200">NIT Hamirpur</span>
+            </p>
+            <p class="text-gray-300 max-w-2xl leading-relaxed">
+                Passionate about Full-Stack Web Development, Data Structures, Algorithms, and Software Engineering. Experienced in building scalable web backend platforms and competitive programming.
+            </p>
+            <div class="pt-4 flex flex-wrap gap-4 justify-center md:justify-start">
+                <a href="mailto:24bec021@nith.ac.in" class="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-2.5 rounded-lg font-medium shadow-lg transition flex items-center gap-2">
+                    <i class="fas fa-envelope"></i> Contact Me
+                </a>
+                <a href="#projects" class="border border-gray-700 hover:bg-gray-800 px-6 py-2.5 rounded-lg font-medium transition">View Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-16 bg-gray-800/50 border-y border-gray-800">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-8 text-indigo-400 flex items-center gap-3">
+                <i class="fas fa-graduation-cap"></i> Education
+            </h2>
+            <div class="space-y-6">
+                <div class="bg-gray-800 p-6 rounded-xl border border-gray-700">
+                    <div class="flex justify-between items-start flex-wrap gap-2">
+                        <div>
+                            <h3 class="text-xl font-bold">National Institute of Technology, Hamirpur</h3>
+                            <p class="text-indigo-400">Bachelor of Technology in Electronics and Communication Engineering</p>
+                            <p class="text-sm text-gray-400 mt-1">Roll No: 24bec021</p>
+                        </div>
+                        <span class="text-sm bg-gray-700 px-3 py-1 rounded-full text-gray-300">2024 - Present</span>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="bg-gray-800 p-6 rounded-xl border border-gray-700">
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <h3 class="font-bold text-lg">A.S College</h3>
+                                <p class="text-gray-400 text-sm">Higher Secondary Certificate (Class XII) - BSEB</p>
+                                <p class="text-indigo-400 font-semibold mt-2">Percentage: 79.8%</p>
+                            </div>
+                            <span class="text-sm bg-gray-700 px-3 py-1 rounded-full text-gray-300">2022</span>
+                        </div>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-xl border border-gray-700">
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <h3 class="font-bold text-lg">Mother Teresa Pub Schl</h3>
+                                <p class="text-gray-400 text-sm">Secondary School Certificate (Class X) - CBSE</p>
+                                <p class="text-indigo-400 font-semibold mt-2">Percentage: 87.2%</p>
+                            </div>
+                            <span class="text-sm bg-gray-700 px-3 py-1 rounded-full text-gray-300">2020</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Skills & Coding Profiles -->
+    <section id="skills" class="py-16 max-w-6xl mx-auto px-6">
+        <h2 class="text-3xl font-bold mb-8 text-indigo-400 flex items-center gap-3">
+            <i class="fas fa-code"></i> Technical Skills & Coding Profiles
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="space-y-4">
+                <div class="bg-gray-800 p-5 rounded-xl border border-gray-700">
+                    <h3 class="font-semibold text-gray-300 mb-2">Languages</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-indigo-950 text-indigo-300 border border-indigo-800 px-3 py-1 rounded-md text-sm">C</span>
+                        <span class="bg-indigo-950 text-indigo-300 border border-indigo-800 px-3 py-1 rounded-md text-sm">C++</span>
+                        <span class="bg-indigo-950 text-indigo-300 border border-indigo-800 px-3 py-1 rounded-md text-sm">Python</span>
+                        <span class="bg-indigo-950 text-indigo-300 border border-indigo-800 px-3 py-1 rounded-md text-sm">JavaScript</span>
+                    </div>
+                </div>
+                <div class="bg-gray-800 p-5 rounded-xl border border-gray-700">
+                    <h3 class="font-semibold text-gray-300 mb-2">Web Technologies</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-indigo-950 text-indigo-300 border border-indigo-800 px-3 py-1 rounded-md text-sm">React.js</span>
+                        <span class="bg-indigo-950 text-indigo-300 border border-indigo-800 px-3 py-1 rounded-md text-sm">HTML5</span>
+                        <span class="bg-indigo-950 text-indigo-300 border border-indigo-800 px-3 py-1 rounded-md text-sm">CSS3</span>
+                        <span class="bg-indigo-950 text-indigo-300 border border-indigo-800 px-3 py-1 rounded-md text-sm">Node.js</span>
+                        <span class="bg-indigo-950 text-indigo-300 border border-indigo-800 px-3 py-1 rounded-md text-sm">Express.js</span>
+                        <span class="bg-indigo-950 text-indigo-300 border border-indigo-800 px-3 py-1 rounded-md text-sm">MongoDB</span>
+                        <span class="bg-indigo-950 text-indigo-300 border border-indigo-800 px-3 py-1 rounded-md text-sm">MySQL</span>
+                    </div>
+                </div>
+                <div class="bg-gray-800 p-5 rounded-xl border border-gray-700">
+                    <h3 class="font-semibold text-gray-300 mb-2">Tools & CS Fundamentals</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-gray-700 px-3 py-1 rounded-md text-sm">Git</span>
+                        <span class="bg-gray-700 px-3 py-1 rounded-md text-sm">GitHub</span>
+                        <span class="bg-gray-700 px-3 py-1 rounded-md text-sm">VS Code</span>
+                        <span class="bg-gray-700 px-3 py-1 rounded-md text-sm">Arrays, Trees, Graphs</span>
+                        <span class="bg-gray-700 px-3 py-1 rounded-md text-sm">Dynamic Programming</span>
+                        <span class="bg-gray-700 px-3 py-1 rounded-md text-sm">Sorting</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Profiles & Core Competencies -->
+            <div class="space-y-6">
+                <div class="bg-gray-800 p-6 rounded-xl border border-gray-700">
+                    <h3 class="text-xl font-bold mb-4">Coding Profiles & PS</h3>
+                    <p class="text-gray-400 text-sm mb-4">Problem Solving: 250+ Problems Solved (GFG: 50+, LeetCode: 200+)</p>
+                    <div class="space-y-3">
+                        <div class="flex items-center justify-between p-3 bg-gray-900/60 rounded-lg">
+                            <span class="font-medium">LeetCode</span>
+                            <span class="text-indigo-400 font-semibold">200+ Problems</span>
+                        </div>
+                        <div class="flex items-center justify-between p-3 bg-gray-900/60 rounded-lg">
+                            <span class="font-medium">GeeksforGeeks</span>
+                            <span class="text-indigo-400 font-semibold">50+ Problems</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-gray-800 p-6 rounded-xl border border-gray-700">
+                    <h3 class="text-xl font-bold mb-3">Core Competencies</h3>
+                    <ul class="list-disc list-inside text-gray-300 space-y-1 text-sm">
+                        <li><strong class="text-gray-100">Technical:</strong> Full-Stack Development, Algorithm Design</li>
+                        <li><strong class="text-gray-100">Problem Solving:</strong> Data Structures, Algorithms</li>
+                        <li><strong class="text-gray-100">Soft Skills:</strong> Communication, Team Collaboration, Leadership, Analytical Thinking</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-16 bg-gray-800/50 border-y border-gray-800">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-8 text-indigo-400 flex items-center gap-3">
+                <i class="fas fa-folder-open"></i> Featured Projects
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                
+                <!-- Project 1 -->
+                <div class="bg-gray-800 p-6 rounded-xl border border-gray-700 flex flex-col justify-between">
+                    <div>
+                        <div class="flex justify-between items-center mb-2">
+                            <h3 class="text-xl font-bold">Video Hosting Platform</h3>
+                            <span class="text-xs bg-indigo-900 text-indigo-300 px-2.5 py-1 rounded">2026</span>
+                        </div>
+                        <p class="text-gray-300 text-sm mb-4 leading-relaxed">
+                            Built a scalable backend for a YouTube-like video hosting platform supporting authentication, video management, likes/dislikes, comments, replies, and subscriptions.
+                        </p>
+                        <ul class="text-xs text-gray-400 space-y-1 mb-6 list-disc list-inside">
+                            <li>RESTful APIs using Node.js & Express.js with MongoDB/Mongoose.</li>
+                            <li>Secure authentication with JWT, access/refresh tokens, and bcrypt hashing.</li>
+                            <li>Middleware-based error handling, validation, and modular architecture.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div class="flex flex-wrap gap-2 pt-2 border-t border-gray-700/50">
+                            <span class="text-xs text-indigo-400 bg-gray-900 px-2 py-1 rounded">Node.js</span>
+                            <span class="text-xs text-indigo-400 bg-gray-900 px-2 py-1 rounded">Express.js</span>
+                            <span class="text-xs text-indigo-400 bg-gray-900 px-2 py-1 rounded">MongoDB</span>
+                            <span class="text-xs text-indigo-400 bg-gray-900 px-2 py-1 rounded">JWT</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="bg-gray-800 p-6 rounded-xl border border-gray-700 flex flex-col justify-between">
+                    <div>
+                        <div class="flex justify-between items-center mb-2">
+                            <h3 class="text-xl font-bold">Version Control System</h3>
+                            <span class="text-xs bg-indigo-900 text-indigo-300 px-2.5 py-1 rounded">2026</span>
+                        </div>
+                        <p class="text-gray-300 text-sm mb-4 leading-relaxed">
+                            Built a command-line based version control system inspired by Git to manage and track changes in source code files.
+                        </p>
+                        <ul class="text-xs text-gray-400 space-y-1 mb-6 list-disc list-inside">
+                            <li>Implemented core version control operations (repository initialization, file tracking, commits, status checking).</li>
+                            <li>Developed using Node.js file-system operations to store snapshots and maintain project history.</li>
+                            <li>Implemented hashing and metadata mechanisms to identify file changes.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div class="flex flex-wrap gap-2 pt-2 border-t border-gray-700/50">
+                            <span class="text-xs text-indigo-400 bg-gray-900 px-2 py-1 rounded">JavaScript</span>
+                            <span class="text-xs text-indigo-400 bg-gray-900 px-2 py-1 rounded">Node.js</span>
+                            <span class="text-xs text-indigo-400 bg-gray-900 px-2 py-1 rounded">File System (fs)</span>
+                            <span class="text-xs text-indigo-400 bg-gray-900 px-2 py-1 rounded">CLI</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience & Achievements -->
+    <section id="achievements" class="py-16 max-w-6xl mx-auto px-6">
+        <h2 class="text-3xl font-bold mb-8 text-indigo-400 flex items-center gap-3">
+            <i class="fas fa-trophy"></i> Experience & Achievements
+        </h2>
+        <div class="space-y-6">
+            <div class="bg-gray-800 p-6 rounded-xl border border-gray-700">
+                <div class="flex justify-between items-start flex-wrap gap-2">
+                    <h3 class="text-lg font-bold">Electron 8.0 - Technical Competition</h3>
+                    <span class="text-xs bg-gray-700 px-3 py-1 rounded-full text-gray-300">March 2026</span>
+                </div>
+                <p class="text-gray-300 text-sm mt-2">
+                    Developed a navigation-focused website designed to assist visually impaired users with accessible and user-friendly navigation. Focused on accessibility and UI optimization.
+                </p>
+            </div>
+
+            <div class="bg-gray-800 p-6 rounded-xl border border-gray-700">
+                <div class="flex justify-between items-start flex-wrap gap-2">
+                    <h3 class="text-lg font-bold">Robo Quest 2.0 - Robotics Competition</h3>
+                    <span class="text-xs bg-gray-700 px-3 py-1 rounded-full text-gray-300">October 2024</span>
+                </div>
+                <p class="text-gray-300 text-sm mt-2">
+                    Engaged in robotics competition involving circuit design, embedded systems, and hardware-software integration.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section / Footer -->
+    <footer id="contact" class="bg-gray-950 py-12 border-t border-gray-800">
+        <div class="max-w-6xl mx-auto px-6 text-center space-y-6">
+            <h2 class="text-2xl font-bold text-gray-200">Get In Touch</h2>
+            <p class="text-gray-400 max-w-md mx-auto text-sm">
+                Hamirpur, HP, India | Phone: +91-6299154595
+            </p>
+            <div class="flex justify-center gap-6 text-2xl">
+                <a href="mailto:24bec021@nith.ac.in" class="text-gray-400 hover:text-indigo-400 transition" title="Email"><i class="fas fa-envelope"></i></a>
+                <a href="#" class="text-gray-400 hover:text-indigo-400 transition" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="text-gray-400 hover:text-indigo-400 transition" title="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+            <p class="text-xs text-gray-500 pt-6">© 2026 Anuj Kumar. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
